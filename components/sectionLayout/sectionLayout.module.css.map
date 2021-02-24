@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAAkB;EAChB,UAAU,EAAE,WAAW;EACvB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,IAAI",
+"sources": ["sectionLayout.module.scss"],
+"names": [],
+"file": "sectionLayout.module.css"
+}

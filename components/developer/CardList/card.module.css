@@ -1,0 +1,77 @@
+.card,
+.activeCard {
+  background-color: #0d1a26;
+  border: 1px solid #fe6b35;
+  border-radius: 0.25rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  display: grid;
+  display: -moz-box;
+  grid-template-rows: 10% 50% 40%;
+  height: 600px;
+  justify-items: center;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  position: relative;
+  width: 350px;
+}
+
+.activeCard {
+  grid-template-rows: 10% 80% 10%;
+}
+
+.activeCardDetails {
+  margin-top: 1rem;
+  overflow-y: scroll;
+}
+
+.title {
+  grid-row: 1;
+  padding-top: 1rem;
+}
+
+.icon {
+  font-size: 5rem;
+  grid-row: 2;
+}
+
+.topHalf {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.yearsExperience {
+  color: #01ffc3;
+}
+
+.bottomHalf {
+  align-items: center;
+  background-color: #fe6b35;
+  color: #2d4053;
+  display: grid;
+  font-size: 1.15rem;
+  grid-template-rows: auto 1fr auto;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.footerButton {
+  background-color: #01ffc3;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #2d4053;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1.5rem;
+  transition: all 300ms ease-in-out;
+}
+.footerButton:hover {
+  border: 1px solid #01ffc3;
+  color: #01ffc3;
+  cursor: pointer;
+  background-color: #2d4053;
+}
+
+/*# sourceMappingURL=card.module.css.map */

@@ -1,0 +1,73 @@
+.personGridLayout {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+}
+
+.profilePic {
+  border-radius: 100%;
+}
+
+.copyContainer {
+  padding-left: 5rem;
+}
+
+.fontOrange {
+  color: #fe6b35;
+}
+
+.bioText {
+  font-size: 1.75rem;
+}
+
+.bioTextLink {
+  color: #01ffc3;
+  transition: 200ms color ease-in-out;
+}
+.bioTextLink:hover {
+  color: #018365;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 1;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.downArrow1 {
+  height: 50px;
+  width: 50px;
+  border-right: 1px solid #01ffc3;
+  border-bottom: 1px solid #01ffc3;
+  transform: rotate(45deg);
+  margin-bottom: -2rem;
+}
+
+.downArrow2 {
+  height: 50px;
+  width: 50px;
+  border-right: 1px solid #01ffc3;
+  border-bottom: 1px solid #01ffc3;
+  transform: rotate(45deg);
+  margin-bottom: -2rem;
+}
+
+.downArrow3 {
+  height: 50px;
+  width: 50px;
+  border-right: 1px solid #01ffc3;
+  border-bottom: 1px solid #01ffc3;
+  transform: rotate(45deg);
+}
+
+.downArrowContainer {
+  position: absolute;
+  bottom: 5rem;
+  left: 48.5%;
+  animation: fadeUp 2s ease-in-out infinite;
+}
+
+/*# sourceMappingURL=person.module.css.map */

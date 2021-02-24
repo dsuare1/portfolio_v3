@@ -1,0 +1,12 @@
+.layoutContainer {
+  background-color: hsl(210, 11%, 15%);
+  background-image: radial-gradient(
+    circle at top right,
+    hsl(210, 50%, 10%),
+    hsl(210, 45%, 15%),
+    hsl(210, 40%, 20%),
+    hsl(210, 30%, 25%)
+  );
+  background-attachment: fixed;
+  overflow: scroll;
+}
