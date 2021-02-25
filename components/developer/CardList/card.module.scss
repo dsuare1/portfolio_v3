@@ -1,6 +1,5 @@
 .card {
   background-color: #0d1a26;
-  border: 1px solid #fe6b35;
   border-radius: 0.25rem;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   display: grid;
@@ -20,8 +19,9 @@
 }
 
 .activeCardDetails {
-  margin-top: 1rem;
+  margin: 5rem 0 3rem;
   overflow-y: scroll;
+  padding: 0 2rem 2rem;
 }
 
 .title {
@@ -48,8 +48,7 @@
 
 .bottomHalf {
   align-items: center;
-  background-color: #fe6b35;
-  color: #2d4053;
+  background-color: rgba(0, 0, 0, 0.5);
   display: grid;
   font-size: 1.15rem;
   grid-template-rows: auto 1fr auto;

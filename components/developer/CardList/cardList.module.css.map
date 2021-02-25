@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,aAAc;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,qCAAqC;EAC5D,QAAQ,EAAE,IAAI",
+"mappings": "AAAA,aAAc;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,qCAAqC;EAC5D,QAAQ,EAAE,IAAI;EACd,aAAa,EAAE,MAAM",
 "sources": ["cardList.module.scss"],
 "names": [],
 "file": "cardList.module.css"

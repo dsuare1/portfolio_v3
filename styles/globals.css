@@ -1,9 +1,13 @@
 /* variables */
+
 /*
-darkest-background - hsl(210, 50%, 10%) #0d1a26
-lightest-background - hsl(210, 30%, 25%) #2d4053
-font-white - hsl(210, 14%, 89%) #dfe3e7
-orange - #fe6b35
+$darkest-blue: #0D1A26;
+$darker-blue: #152637;
+$lighter-blue: #1F3347;
+$lightest-blue: #2D4053;
+
+$accent-green: #01ffc3;
+$accent-orange: #fe6b35;
  */
 
 html,
@@ -24,9 +28,7 @@ a {
 }
 
 p {
-  font-size: 1.25rem;
   margin: 0;
-  transition: color 200ms ease-in-out;
 }
 
 ul {

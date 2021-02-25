@@ -72,7 +72,11 @@ const cardData = [
     docsURL: '',
     details: {
       yearsExperience: '3+',
-      usedFor: ['Version Control', 'Feature Branch Management', 'Release Tracking'],
+      usedFor: [
+        'Version Control',
+        'Feature Branch Management',
+        'Release Tracking',
+      ],
       details: '',
     },
   },

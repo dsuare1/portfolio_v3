@@ -50,7 +50,6 @@ const CardList = () => {
             animate={isActive ? activeCardAnimation : null}
             transition={transitionConfig}
             className={isActive ? cardStyle.activeCard : cardStyle.card}
-            onTap={() => setActiveCardId(id)}
           >
             <motion.div
               animate={isActive ? activeCardContentAnimation : null}

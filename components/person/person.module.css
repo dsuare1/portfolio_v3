@@ -9,6 +9,9 @@
 }
 
 .copyContainer {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-rows: repeat(2, auto);
   padding-left: 5rem;
 }
 

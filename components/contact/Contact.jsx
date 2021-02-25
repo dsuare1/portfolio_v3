@@ -6,12 +6,12 @@ import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
 import style from './contact.module.scss';
 
 const Contact = () => (
-    <div className={style.contactCard}>
-        <FaGithub className={style.contactIcon} />
-        <FaLinkedin className={style.contactIcon} />
-        <FaTwitter className={style.contactIcon} />
-        <FaInstagram className={style.contactIcon} />
-    </div>
+  <div className={style.contactCard}>
+    <FaGithub className={style.contactIcon} />
+    <FaLinkedin className={style.contactIcon} />
+    <FaTwitter className={style.contactIcon} />
+    <FaInstagram className={style.contactIcon} />
+  </div>
 );
 
 export default Contact;

@@ -8,13 +8,16 @@
   padding: 1rem;
   position: fixed;
   top: 45%;
-  right: 1rem; }
+  right: 1rem;
+}
 
 .contactIcon {
   color: #0d1a26;
   font-size: 2rem;
-  margin: 0.5rem 0; }
-  .contactIcon:hover {
-    cursor: pointer; }
+  margin: 0.5rem 0;
+}
+.contactIcon:hover {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=contact.module.css.map */
