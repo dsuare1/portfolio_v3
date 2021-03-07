@@ -3,15 +3,36 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import SectionLayout from '../../components/sectionLayout/SectionLayout';
 import { HeadingH2 } from '../typography/Headings';
 import { LargerCopy } from '../typography/Copy';
+import { nodes } from '../../constants/journeyNodes';
 import style from './journey.module.scss';
+import Node from './Node/Node';
+import { FaBirthdayCake } from '@react-icons/all-files/fa/FaBirthdayCake';
+import { FaBaby } from '@react-icons/all-files/fa/FaBaby';
+import { FaSchool } from '@react-icons/all-files/fa/FaSchool';
+import { FaCarSide } from '@react-icons/all-files/fa/FaCarSide';
+import { FaPlaneDeparture } from '@react-icons/all-files/fa/FaPlaneDeparture';
+import { FaUniversity } from '@react-icons/all-files/fa/FaUniversity';
+import { FaMusic } from '@react-icons/all-files/fa/FaMusic';
+import { FaBriefcase } from '@react-icons/all-files/fa/FaBriefcase';
 
-const foo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35];
+const numberOfNodes = nodes.length;
+
+const iconMap = {
+  birthday: <FaBirthdayCake />,
+  baby: <FaBaby />,
+  degree: <FaUniversity />,
+  diploma: <FaSchool />,
+  music: <FaMusic />,
+  'travel-car': <FaCarSide />,
+  'travel-plane': <FaPlaneDeparture />,
+  job: <FaBriefcase />,
+};
 
 const Journey = () => (
   <SectionLayout>
     <ScrollAnimation
-      animateIn="fadeInLeft"
-      animateOut="fadeOutLeft"
+      animateIn="fadeInDown"
+      animateOut="fadeOutUp"
       duration={0.5}
       offset={50}
     >
@@ -27,10 +48,21 @@ const Journey = () => (
       HTML and CSS, among others. At the end of the program, I earned a position
       as a software engineer at a (now defunct) startup in Austin, TX.
     </LargerCopy>
-    <div className={style.timelineContainer}>
-        {foo.map((i) => (
-            <div key={i} className={style.timelineItem} />
-        ))}
+    <div id="timeline-container" className={style.timelineContainer} onScroll={() => console.log('foo')}>
+      {nodes.map((nodeProps, index) => {
+        const { id } = nodeProps;
+        const icon = iconMap[nodeProps.icon];
+
+        return (
+          <Node
+            key={id}
+            icon={icon}
+            index={index}
+            nodeProps={nodeProps}
+            numberOfNodes={numberOfNodes}
+          />
+        );
+      })}
     </div>
   </SectionLayout>
 );

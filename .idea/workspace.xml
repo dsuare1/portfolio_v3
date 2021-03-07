@@ -6,30 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="8cbfd943-a56c-46b1-b5bd-cc4f1792954e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/contact/contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact/contact.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/CardList/.sass-cache/ab96140e6329caa443cbbdf5ee4bae29f64ecd45/card.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/.sass-cache/ab96140e6329caa443cbbdf5ee4bae29f64ecd45/card.module.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/CardList/.sass-cache/ab96140e6329caa443cbbdf5ee4bae29f64ecd45/cardList.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/.sass-cache/ab96140e6329caa443cbbdf5ee4bae29f64ecd45/cardList.module.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/CardList/CardList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/CardList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/developer/CardList/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/CardList/card.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/card.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/CardList/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/card.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/developer/CardList/cardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/cardList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/CardList/cardList.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/cardList.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/CardList/cardList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/CardList/cardList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/developer/Developer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/developer/Developer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/journey/.sass-cache/b5d4d0a773db5b26b5b565bfcfd60e5fb8ad0c4f/journey.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/components/journey/.sass-cache/b5d4d0a773db5b26b5b565bfcfd60e5fb8ad0c4f/journey.module.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/journey/Journey.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/journey/Journey.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/layout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/person/.sass-cache/69f0af544fd33041af02bc11c224941eb7eb3df9/person.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/components/person/.sass-cache/69f0af544fd33041af02bc11c224941eb7eb3df9/person.module.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/person/Person.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/person/Person.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/person/person.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/person/person.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/person/person.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/person/person.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/person/person.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/person/person.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sectionLayout/.sass-cache/c249c0577f764aeadcba39f3f3290fb0a651f0b9/sectionLayout.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/components/sectionLayout/.sass-cache/c249c0577f764aeadcba39f3f3290fb0a651f0b9/sectionLayout.module.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sectionLayout/sectionLayout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/sectionLayout/sectionLayout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sectionLayout/sectionLayout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/sectionLayout/sectionLayout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/typography/Headings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/typography/Headings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/technologyCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/technologyCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/journey/journey.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/journey/journey.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/journey/journey.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/journey/journey.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/journey/journey.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/journey/journey.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/.sass-cache/ee7441a02d16a1174f33beda2558a6d78fdd389b/navbar.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/.sass-cache/ee7441a02d16a1174f33beda2558a6d78fdd389b/navbar.module.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/navbar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/navbar.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/typography/Copy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/typography/Copy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/typography/copy.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/typography/copy.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -1,0 +1,45 @@
+.nodeCircle {
+  background-color: #01ffc3;
+  border: 1px solid #dfe3e7;
+  border-radius: 51%;
+  height: 1rem;
+  justify-self: center;
+  position: absolute;
+  width: 1rem;
+}
+
+.nodeLine {
+  border-right: 1px solid #dfe3e7;
+  height: 5rem;
+  justify-self: center;
+  position: absolute;
+  width: 1px;
+}
+
+.nodeLineTop {
+  @extend .nodeLine;
+  top: 1rem;
+}
+
+.nodeLineBottom {
+  @extend .nodeLine;
+  bottom: 1rem;
+}
+
+.nodeAxisCopy {
+  align-items: center;
+  display: flex;
+  grid-row: 2;
+  justify-content: center;
+  position: relative;
+}
+
+.nodeAxisCopyTop {
+  @extend .nodeAxisCopy;
+  flex-direction: column-reverse;
+}
+
+.nodeAxisCopyBottom {
+  @extend .nodeAxisCopy;
+  flex-direction: column;
+}

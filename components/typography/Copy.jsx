@@ -10,3 +10,7 @@ export const LargeCopy = ({ children }) => (
 export const LargerCopy = ({ children }) => (
   <p className={style.largerCopy}>{children}</p>
 );
+
+export const SecondaryCopy = ({ children }) => (
+  <p className={style.secondaryCopy}>{children}</p>
+);

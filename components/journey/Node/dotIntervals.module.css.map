@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAmB;EACjB,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,QAAQ;EAChB,KAAK,EAAE,OAAO;;AAGhB,uDAAe;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,QAAQ,EAAE,QAAQ;;AAGpB,kBAAmB;EAEjB,IAAI,EAAE,CAAC;;AAGT,mBAAoB;EAElB,KAAK,EAAE,CAAC",
+"sources": ["dotIntervals.module.scss"],
+"names": [],
+"file": "dotIntervals.module.css"
+}

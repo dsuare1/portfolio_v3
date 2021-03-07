@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAa;EACX,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,UAAU",
-"sources": ["developer.module.scss"],
-"names": [],
-"file": "developer.module.css"
-}

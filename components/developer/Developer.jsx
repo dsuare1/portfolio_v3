@@ -3,13 +3,12 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import SectionLayout from '../sectionLayout/SectionLayout';
 import CardList from './CardList/CardList';
 import { HeadingH2 } from '../typography/Headings';
-import style from './developer.module.scss';
 
 const Developer = () => (
   <SectionLayout>
     <ScrollAnimation
-      animateIn="fadeInLeftBig"
-      animateOut="fadeOutLeftBig"
+      animateIn="fadeInDown"
+      animateOut="fadeOutUp"
       duration={0.5}
       offset={50}
     >

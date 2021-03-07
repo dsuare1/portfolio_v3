@@ -1,0 +1,47 @@
+.nodeCircle {
+  background-color: #01ffc3;
+  border: 1px solid #dfe3e7;
+  border-radius: 51%;
+  height: 1rem;
+  justify-self: center;
+  position: absolute;
+  width: 1rem;
+}
+
+.nodeLine,
+.nodeLineTop,
+.nodeLineBottom {
+  border-right: 1px solid #dfe3e7;
+  height: 5rem;
+  justify-self: center;
+  position: absolute;
+  width: 1px;
+}
+
+.nodeLineTop {
+  top: 1rem;
+}
+
+.nodeLineBottom {
+  bottom: 1rem;
+}
+
+.nodeAxisCopy,
+.nodeAxisCopyTop,
+.nodeAxisCopyBottom {
+  align-items: center;
+  display: flex;
+  grid-row: 2;
+  justify-content: center;
+  position: relative;
+}
+
+.nodeAxisCopyTop {
+  flex-direction: column-reverse;
+}
+
+.nodeAxisCopyBottom {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=timelineElements.module.css.map */
