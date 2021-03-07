@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  LargeCopy,
-  SecondaryCopy,
-  StandardCopy,
-} from '../../typography/Copy';
+import { LargeCopy, SecondaryCopy, StandardCopy } from '../../typography/Copy';
 import TimelineElements from './TImelineElements';
 import { CHAPTER, TRANSITION } from '../../../constants/journeyNodes';
 import style from './node.module.scss';
@@ -20,7 +16,7 @@ const Node = ({ icon, index, nodeProps, numberOfNodes }) => {
           topRow ? style.nodeCopyContainerTop : style.nodeCopyContainer
         } ${topRow ? style.nodeCopyItemTop : style.nodeCopyItemBottom}`}
       >
-          <p className={style.year}>{year}</p>
+        <p className={style.year}>{year}</p>
         {type === CHAPTER ? <LargeCopy>{title}</LargeCopy> : null}
         <span className={style.icon}>{icon}</span>
         <SecondaryCopy>{shortDescription}</SecondaryCopy>

@@ -48,7 +48,7 @@ const Journey = () => (
       HTML and CSS, among others. At the end of the program, I earned a position
       as a software engineer at a (now defunct) startup in Austin, TX.
     </LargerCopy>
-    <div id="timeline-container" className={style.timelineContainer} onScroll={() => console.log('foo')}>
+    <div id="timeline-container" className={style.timelineContainer}>
       {nodes.map((nodeProps, index) => {
         const { id } = nodeProps;
         const icon = iconMap[nodeProps.icon];

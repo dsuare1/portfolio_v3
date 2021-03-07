@@ -109,7 +109,7 @@ export const nodes = [
       'Assisted teachers in facilitating conversations in English with students',
     longDescription: '',
     location: 'Madrid, Spain',
-    readMore: true
+    readMore: true,
   },
   {
     id: 'transition-moved-from-spain-to-home',

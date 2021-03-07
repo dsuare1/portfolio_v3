@@ -19,17 +19,17 @@ const Navbar = () => {
         </HeadingH1>
       </div>
       <div className={style.navbar}>
-        <HeadingH5>
-          <Link href="/portfolio">
-            <a
-              className={`${style.navLink} ${
-                pathname === routePaths.PORTFOLIO ? style.navLinkActive : null
-              }`}
-            >
-              Portfolio
-            </a>
-          </Link>
-        </HeadingH5>
+        {/*<HeadingH5>*/}
+        {/*  <Link href="/portfolio">*/}
+        {/*    <a*/}
+        {/*      className={`${style.navLink} ${*/}
+        {/*        pathname === routePaths.PORTFOLIO ? style.navLinkActive : null*/}
+        {/*      }`}*/}
+        {/*    >*/}
+        {/*      Portfolio*/}
+        {/*    </a>*/}
+        {/*  </Link>*/}
+        {/*</HeadingH5>*/}
         <HeadingH5>
           <Link href="/">
             <a
