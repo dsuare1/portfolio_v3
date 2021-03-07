@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const HOME = '/';\nexport const PORTFOLIO = '/portfolio';","map":null,"metadata":{},"sourceType":"module"}
