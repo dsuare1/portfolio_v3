@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport React from 'react';\nimport styles from './sectionLayout.module.css';\n\nconst SectionLayout = ({\n  children\n}) => /*#__PURE__*/_jsx(\"div\", {\n  className: styles.sectionContainer,\n  children: children\n});\n\nexport default SectionLayout;","map":null,"metadata":{},"sourceType":"module"}
