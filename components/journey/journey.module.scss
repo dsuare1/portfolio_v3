@@ -1,3 +1,10 @@
+.timelineContainerWrapper {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 5% 95% 5%;
+  justify-items: center;
+}
+
 .timelineContainer {
   align-items: center;
   background: transparent;
@@ -13,4 +20,60 @@
   background-color: #0d1a26;
   height: 50px;
   width: 50px;
+}
+
+@keyframes fadeLeft {
+  0% {
+    margin-left: 0;
+    opacity: 1;
+  }
+  50% {
+    margin-left: -10px;
+    opacity: 0.25;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    margin-right: 0;
+    opacity: 1;
+  }
+  50% {
+    margin-right: -10px;
+    opacity: 0.25;
+  }
+  100% {
+    margin-right: 0;
+    opacity: 1;
+  }
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 7.5rem;
+  visibility: visible;
+  &.hide {
+    visibility: hidden;
+  }
+}
+
+.leftArrow {
+  @extend .arrow;
+  animation: fadeLeft 1s ease-in-out infinite;
+  border-bottom: 1px solid #01ffc3;
+  border-left: 1px solid #01ffc3;
+  transform: rotate(45deg);
+}
+
+.rightArrow {
+  @extend .arrow;
+  animation: fadeRight 1s ease-in-out infinite;
+  border-top: 1px solid #01ffc3;
+  border-right: 1px solid #01ffc3;
+  transform: rotate(45deg);
 }

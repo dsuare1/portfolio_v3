@@ -7,9 +7,8 @@ module.exports = {
     'eslint:recommended',
     'airbnb',
     'airbnb/hooks',
-    'prettier',
-    'prettier/react',
     'plugin:prettier/recommended',
+    'prettier',
   ],
   parserOptions: {
     ecmaFeatures: {

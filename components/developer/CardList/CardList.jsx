@@ -91,6 +91,7 @@ const CardList = () => {
                     ))}
                   </ul>
                   <button
+                    type="button"
                     className={cardStyle.footerButton}
                     onClick={() => setActiveCardId(id)}
                   >

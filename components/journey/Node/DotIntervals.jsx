@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from './dotIntervals.module.scss';
 
 const DotIntervals = ({ basis, numDots }) => (
@@ -12,5 +13,10 @@ const DotIntervals = ({ basis, numDots }) => (
     ))}
   </div>
 );
+
+DotIntervals.propTypes = {
+  basis: PropTypes.string.isRequired,
+  numDots: PropTypes.number.isRequired,
+};
 
 export default DotIntervals;

@@ -25,29 +25,31 @@ const Person = () => {
         <div className={style.copyContainer}>
           <TextLoop springConfig={springConfig}>
             <HeadingH2>
-              <span className={style.fontOrange}>>></span> Software Engineer
+              <span className={style.fontOrange}>&gt;&gt;</span> Software
+              Engineer
             </HeadingH2>
             <HeadingH2>
-              <span className={style.fontOrange}>>></span> Father
+              <span className={style.fontOrange}>&gt;&gt;</span> Father
             </HeadingH2>
             <HeadingH2>
-              <span className={style.fontOrange}>>></span> Husband
+              <span className={style.fontOrange}>&gt;&gt;</span> Husband
             </HeadingH2>
             <HeadingH2>
-              <span className={style.fontOrange}>>></span> Web Developer
+              <span className={style.fontOrange}>&gt;&gt;</span> Web Developer
             </HeadingH2>
             <HeadingH2>
-              <span className={style.fontOrange}>>></span> Music Enthusiast
+              <span className={style.fontOrange}>&gt;&gt;</span> Music
+              Enthusiast
             </HeadingH2>
             <HeadingH2>
-              <span className={style.fontOrange}>>></span> Traveler
+              <span className={style.fontOrange}>&gt;&gt;</span> Traveler
             </HeadingH2>
           </TextLoop>
           <div>
             <LargerCopy>
               Passionate about building testable, scalable software, with a
-              focus on APIs and backend systems. I'm comfortable anywhere on the
-              stack and have worked with a{' '}
+              focus on APIs and backend systems. I&apos;m comfortable anywhere
+              on the stack and have worked with a{' '}
               <a className={style.bioTextLink} href="#developer">
                 variety of technologies
               </a>{' '}
