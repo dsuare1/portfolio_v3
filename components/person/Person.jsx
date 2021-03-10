@@ -16,7 +16,7 @@ const Person = () => {
     <SectionLayout>
       <div className={style.personGridLayout}>
         <Image
-          src="/images/profile_pic.png"
+          src="/profile_pic.png"
           alt="Derrick Suarez"
           width={250}
           height={250}
