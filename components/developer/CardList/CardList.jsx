@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { DiNodejsSmall } from '@react-icons/all-files/di/DiNodejsSmall';
 import { DiGo } from '@react-icons/all-files/di/DiGo';
@@ -20,22 +20,47 @@ const iconMap = {
   git: <DiGit className={cardStyle.icon} />,
 };
 
+const activeCardAnimation = {
+  rotateY: 180,
+  scale: 1.25,
+  zIndex: 9999,
+};
+
+const activeCardContentAnimation = {
+  rotateY: 180,
+};
+
+const transitionConfig = {
+  duration: 0.5,
+};
+
 const CardList = () => {
   const [activeCardId, setActiveCardId] = useState(null);
 
-  const activeCardAnimation = {
-    rotateY: 180,
-    scale: 1.25,
-    zIndex: 9999,
-  };
+  const handleClickAway = useCallback(
+    (e) => {
+      const { id, type } = e.target;
 
-  const activeCardContentAnimation = {
-    rotateY: 180,
-  };
+      if (type === 'button') {
+        return;
+      }
 
-  const transitionConfig = {
-    duration: 0.5,
-  };
+      if (activeCardId === id) {
+        return;
+      }
+
+      if (activeCardId !== null && id !== activeCardId) {
+        setActiveCardId(null);
+      }
+    },
+    [activeCardId],
+  );
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickAway);
+
+    return () => document.removeEventListener('mousedown', handleClickAway);
+  }, [handleClickAway]);
 
   const clearActiveCard = () => setActiveCardId(null);
 
@@ -46,6 +71,7 @@ const CardList = () => {
 
         return (
           <motion.div
+            id={id}
             key={id}
             animate={isActive ? activeCardAnimation : null}
             transition={transitionConfig}
@@ -67,6 +93,7 @@ const CardList = () => {
                   {details.details}
                 </motion.p>
                 <motion.button
+                  type="button"
                   animate={isActive ? activeCardContentAnimation : null}
                   transition={transitionConfig}
                   className={cardStyle.footerButton}

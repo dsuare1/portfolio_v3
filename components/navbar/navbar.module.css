@@ -40,7 +40,7 @@
 .navbar {
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-column-gap: 2rem;
   grid-column: 2;
   justify-items: end;
