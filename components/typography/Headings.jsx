@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import PropTypes from 'prop-types';
 import style from './headings.module.css';
@@ -12,9 +13,14 @@ export const HeadingH2 = ({ children, id }) => (
   </h2>
 );
 
-export const HeadingH3 = ({ children }) => (
-  <h3 className={style.headingH3}>{children}</h3>
-);
+export const HeadingH3 = (props) => {
+  const { children, ...rest } = props;
+  return (
+    <h3 {...rest} className={style.headingH3}>
+      {children}
+    </h3>
+  );
+};
 
 export const HeadingH4 = ({ children }) => (
   <h4 className={style.headingH4}>{children}</h4>

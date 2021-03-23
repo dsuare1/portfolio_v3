@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import TextLoop from 'react-text-loop';
 import SectionLayout from '../sectionLayout/SectionLayout';
 import { HeadingH2 } from '../typography/Headings';
@@ -15,7 +15,7 @@ const Person = () => {
   return (
     <SectionLayout>
       <div className={style.personGridLayout}>
-        <Image
+        <img
           src="/profile_pic.png"
           alt="Derrick Suarez"
           width={250}

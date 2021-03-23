@@ -71,7 +71,9 @@ const Journey = () => {
         stack technologies, including Javascript (Node, jQuery, React), MySQL,
         MongoDB, HTML and CSS, among others. At the end of the program, I earned
         a position as a software engineer at a (now defunct) startup in Austin,
-        TX.
+        TX. Currently, I work for J-Curve Technologies as a Software Engineer,
+        building a data analytics and workforce management platform for contact
+        center operations (among other projects).
       </LargerCopy>
       <div className={style.timelineContainerWrapper}>
         <div

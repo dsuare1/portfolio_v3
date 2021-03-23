@@ -4,7 +4,7 @@ import { DiNodejsSmall } from '@react-icons/all-files/di/DiNodejsSmall';
 import { DiGo } from '@react-icons/all-files/di/DiGo';
 import { DiReact } from '@react-icons/all-files/di/DiReact';
 import { DiPostgresql } from '@react-icons/all-files/di/DiPostgresql';
-import { DiDatabase } from '@react-icons/all-files/di/DiDatabase';
+import { DiGithub } from '@react-icons/all-files/di/DiGithub';
 import { DiGit } from '@react-icons/all-files/di/DiGit';
 import { HeadingH3 } from '../../typography/Headings';
 import cardData from '../../../constants/technologyCards';
@@ -16,7 +16,7 @@ const iconMap = {
   go: <DiGo className={cardStyle.icon} />,
   reactjs: <DiReact className={cardStyle.icon} />,
   postgresql: <DiPostgresql className={cardStyle.icon} />,
-  sequelize: <DiDatabase className={cardStyle.icon} />,
+  github: <DiGithub className={cardStyle.icon} />,
   git: <DiGit className={cardStyle.icon} />,
 };
 
@@ -82,11 +82,12 @@ const CardList = () => {
               transition={transitionConfig}
               className={cardStyle.title}
             >
-              <HeadingH3>{title}</HeadingH3>
+              <HeadingH3 id={id}>{title}</HeadingH3>
             </motion.div>
             {isActive ? (
               <>
                 <motion.p
+                  id={id}
                   animate={isActive ? activeCardContentAnimation : null}
                   className={cardStyle.activeCardDetails}
                 >
