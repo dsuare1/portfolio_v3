@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './sectionLayout.module.css';
+import style from './sectionLayout.module.css';
 
 const SectionLayout = ({ children }) => (
-  <div className={styles.sectionContainer}>{children}</div>
+  <div className={style.sectionContainer}>{children}</div>
 );
 
 SectionLayout.propTypes = {

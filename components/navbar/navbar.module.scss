@@ -1,6 +1,5 @@
 .navbarWrapper {
   background-color: rgba(0, 0, 0, 0.5);
-  border-bottom: 1px solid #dfe3e7;
   display: grid;
   grid-template-columns: 75% 25%;
   padding: 2rem 10%;
@@ -12,14 +11,13 @@
   padding: 0.75rem 0 0.5rem;
   transition: 200ms all ease-in-out;
   &:hover {
-    border-bottom: 1px solid #a2a2a5;
-    border-top: 1px solid #a2a2a5;
+    color: #01ffc3;
+    border-bottom: 1px solid #01ffc3;
   }
 }
 
 .navLinkActive {
   border-bottom: 1px solid #a2a2a5;
-  border-top: 1px solid #a2a2a5;
 }
 
 .navLinkNoUnderline {

@@ -6,8 +6,7 @@ import { HeadingH1, HeadingH5 } from '../typography/Headings';
 import * as routePaths from '../../constants/routePaths';
 
 const Navbar = () => {
-  const router = useRouter();
-  const { pathname } = router;
+  const { pathname } = useRouter();
 
   return (
     <div className={style.navbarWrapper}>
