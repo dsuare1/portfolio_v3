@@ -1,6 +1,7 @@
 .footerContainer {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 1fr auto;
   background-color: #0d1a26;
   width: 100%;
   margin: 0 auto;
@@ -8,6 +9,10 @@
   padding: 2.5rem;
   align-items: center;
   justify-items: center; }
+
+.footerNav {
+  justify-self: flex-start;
+  padding-left: 5rem; }
 
 .socials {
   display: flex;
@@ -22,5 +27,13 @@
   .socialIcon:hover {
     color: #fe6b35;
     cursor: pointer; }
+
+.copyright {
+  background-color: #0d1a26;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; }
 
 /*# sourceMappingURL=footer.module.css.map */
